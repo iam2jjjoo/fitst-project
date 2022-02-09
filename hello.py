@@ -1,7 +1,5 @@
-a, b, c = input().split()
-a = int(a)
-b = int(b)
-c = int(c)
-d = a+b+c
-e = d/3
-print(d, (format(e, ".2f" )))
+a = int(input())
+
+while a!=0 :
+    print(a)
+    a = a-1
